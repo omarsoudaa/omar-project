@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 
-import Navbar from './components/Navbar/navbar'
+import Navbar from './components/Navbar/Navbar'
 import FlightSearch from './components/FlightSearch/FlightSearch'
 import RecentSearches from './components/RecentSearches/RecentSearches'
 import PrepareTrip from './components/PrepareTrip/PrepareTrip'
