@@ -1,0 +1,93 @@
+.popular-stays {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .view-all {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .view-all:hover {
+    text-decoration: underline;
+  }
+  
+  .stays-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  
+  .stay-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 280px;
+    flex: 0 0 auto;
+    border: 1px solid #ddd;
+  }
+  
+  .stay-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .stay-info {
+    padding: 15px;
+  }
+  
+  .stay-type {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 5px;
+  }
+  
+  .stay-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .stay-price {
+    font-weight: bold;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .stay-rating {
+    font-size: 14px;
+    color: #ffa500;
+  }
+  
+  .review-count {
+    color: #666;
+    font-size: 12px;
+  }
+  
+  .details-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .details-button:hover {
+    background: #0056b3;
+  }
+  

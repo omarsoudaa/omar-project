@@ -1,0 +1,40 @@
+
+.recommended-holidays {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .holidays-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .holiday-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    width: 250px;
+  }
+  
+  .holiday-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .holiday-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .holiday-info {
+    padding: 15px;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
